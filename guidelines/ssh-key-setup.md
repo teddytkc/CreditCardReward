@@ -15,6 +15,7 @@ Guide to setup ssh key and connect PyCharm to github
     stored in the key file with below command:
 
         `cat /home/eric/.ssh/id_ed25519.pub`
+        
    ![img.png](src/ssh_in_terminal.png)
    ![img.png](src/cat_ssh_key.png)
     
@@ -31,9 +32,11 @@ Guide to setup ssh key and connect PyCharm to github
     ![img.png](src/git_ssh_page.png)
 
     2. Click "New SSH Key" and paste the Key you got in Step 1 (from the Terminal) >> Add SSH Key
+    
     ![img.png](src/add_ssh_keys.png)
 
     3. Done!
+    
     ![img_1.png](src/git_add_key_done.png)!
 
 
@@ -41,11 +44,14 @@ Guide to setup ssh key and connect PyCharm to github
     You are all set! You can push and pull commits to/from github anytime
 
     1. Open Pycharm >> Get from VCS
+
     ![img.png](src/pycharm_open.png)
 
     2. In the Git repo, copy the SSH address
+
     ![img.png](src/git_copy_address.png)
 
     3. Paste it to the URL and you will get confirmation
+
     ![img.png](src/pycharm_clone.png)
    ![img.png](src/pycharm_ssh_done.png)
